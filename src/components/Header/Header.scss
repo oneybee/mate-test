@@ -6,17 +6,21 @@
         position: relative;
         @include center-icon-a(35px, 35px);
         padding: 60px 0;
-        .profile-img {
+
+    }
+}
+        .profile-img { 
+            background-image: url('../../../assets/images/profile.jpg');
+            
             float: right;
             width: 35px;
             img {
+                border: 1px solid blue;
+                z-index: -10;
                 width: 35px;
                 height: 35px;
                 border-radius: 50px;
                 @include center(y);
                 position: absolute;
             }
-
         }
-    }
-}

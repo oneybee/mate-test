@@ -2,3 +2,38 @@
 
 .info-banner {
 }
+
+heading{
+  font-size: 24px;
+  font-weight: 700;
+}
+
+h{
+  font-size: 24px;
+}
+  
+
+  .background-image-contain {
+    background-image: url('../../../assets/images/box-color-01.png');
+    background-position: 50%;
+    height:90px;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .background-image-contain2 {
+    background-image: url('../../../assets/images/box-color-02.png');
+    background-position: 50%;
+    height:90px;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+ .text {
+    color: white;
+    height: 90px;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding: 20px;
+ }

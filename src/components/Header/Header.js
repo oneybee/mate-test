@@ -5,7 +5,8 @@ export default function HeaderComponent() {
   return (
     <div className="header"> 
       <div className="nav">
-        (헤더)
+        <div className="profile-img img">
+        </div>
       </div>
     </div>
   );
