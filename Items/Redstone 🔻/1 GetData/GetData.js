@@ -20,6 +20,7 @@ export default class GetData extends Component {
       .then(response => response.json())
       .then(responseJson => {
         log('getData 😍', responseJson);
+        console.log(responsedata)
       });
   }
   render() {
